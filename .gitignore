@@ -12,8 +12,8 @@ dist/
 build/
 
 # Environment
-# .env
-# .env.*
+.env
+.env.*
 
 # Logs
 logs/
