@@ -1,0 +1,13 @@
+boto3 
+python-dotenv 
+fastapi 
+uvicorn 
+pydantic
+pydantic-settings
+pytest 
+pytest-asyncio
+streamlit
+pandas
+plotly 
+SQLAlchemy
+PyMySQL
