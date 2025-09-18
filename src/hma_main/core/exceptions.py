@@ -1,4 +1,11 @@
-"""Custom exceptions for HMA ingestion system."""
+"""
+Custom exceptions for the HMA ingestion system.
+
+This module defines a hierarchy of domain-specific exceptions to provide
+consistent error handling across ingestion components. Each exception
+inherits from `HMAIngestionError`, which allows structured error reporting
+with optional details.
+"""
 from typing import Optional, Any
 
 

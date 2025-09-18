@@ -1,4 +1,13 @@
-"""Centralized logging configuration for the entire application."""
+"""
+Centralized logging configuration for the HMA ingestion system.
+
+Provides functions to:
+- Retrieve a standardized logger with console + rotating file handlers.
+- Configure the root logger for third-party libraries.
+
+Log format includes timestamp, severity, module, function, line number,
+and message. Rotation ensures logs don’t grow indefinitely.
+"""
 import logging
 import sys
 from pathlib import Path
@@ -14,12 +23,12 @@ _configured_loggers = set()
 def get_logger(name: str) -> logging.Logger:
     """
     Get or create a logger with standardized configuration.
-    
+
     Args:
-        name: Logger name (typically __name__ of the module)
-        
+        name: Logger name (typically `__name__` of the module).
+
     Returns:
-        Configured logger instance
+        Configured logger instance with console and rotating file handlers.
     """
     # Check if logger already configured
     if name in _configured_loggers:
