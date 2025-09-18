@@ -11,3 +11,4 @@ pandas
 plotly 
 SQLAlchemy
 PyMySQL
+tabulate

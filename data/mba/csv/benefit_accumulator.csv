@@ -1,0 +1,15 @@
+member_id,service,allowed_limit,used,remaining
+M1001,Massage Therapy,6 visit calendar year maximum,3,3
+M1001,Neurodevelopmental Therapy,30 visit calendar year maximum,2,28
+M1002,Neurodevelopmental Therapy,30 visit calendar year maximum,0,30
+M1002,Massage Therapy,6 visit calendar year maximum,0,6
+M1002,Skilled Nursing Facility,100 day calendar year maximum,0,100
+M1002,Smoking Cessation,8 visit calendar year maximum,5,3
+M1003,Skilled Nursing Facility,100 day calendar year maximum,0,100
+M1003,Neurodevelopmental Therapy,30 visit calendar year maximum,20,10
+M1003,Rehabilitation – Outpatient,30 visit calendar year maximum,0,30
+M1003,Smoking Cessation,8 visit calendar year maximum,2,6
+M1004,Smoking Cessation,8 visit calendar year maximum,2,6
+M1004,Massage Therapy,6 visit calendar year maximum,0,6
+M1005,Massage Therapy,6 visit calendar year maximum,6,0
+M1005,Neurodevelopmental Therapy,30 visit calendar year maximum,30,0
