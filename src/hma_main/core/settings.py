@@ -104,11 +104,11 @@ class Settings(BaseSettings):
         Returns:
             URL string: mysql+pymysql://USER:PWD@HOST:PORT/NAME?PARAMS
         """
-        pwd = quote_plus(self.db_password)
+        pwd = quote_plus(self.RDS_PASSWORD)
         return (
-            f"mysql+pymysql://{self.db_user}:{pwd}"
-            f"@{self.db_host}:{self.db_port}/{self.db_name}"
-            f"?{self.db_params}"
+            f"mysql+pymysql://{self.RDS_USERNAME}:{pwd}"
+            f"@{self.RDS_HOST}:{self.RDS_PORT}/{self.RDS_DATABASE}"
+            f"?{self.RDS_params}"
         )
 
 
